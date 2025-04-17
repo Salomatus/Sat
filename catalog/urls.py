@@ -5,4 +5,4 @@ from catalog.views import home
 
 app_name = CatalogConfig.name
 
-urlpatterns = [path("contacts/", home, name="home")]
+urlpatterns = [path("", home, name="home")]
